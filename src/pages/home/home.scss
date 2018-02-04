@@ -1,0 +1,52 @@
+page-home {
+  .container{
+    background-color: #1D1F21;
+    height: 100%;
+    width:100%;
+    position: fixed;
+  }
+  .reddit{
+    font-size: 150px;
+  }
+
+  .logo{
+    background-image:url(../assets/imgs/logo.png);
+    height: 140px;
+    background-size: 140px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 4;
+    margin-top: 10%;
+  }
+  .redditor{
+    color: white;
+  }
+
+  .posts{
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .post_text{
+    background-color: #1D1F21;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 15%;
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+  }
+  .author{
+    background-color: #1D1F21;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10%;
+    color: white;
+    font-weight: 100;
+    text-transform: lowercase;
+    opacity: .5
+  }
+}
